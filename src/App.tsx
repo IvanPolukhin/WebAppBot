@@ -1,11 +1,16 @@
+import { BrowserRouter as Router } from 'react-router-dom'
+
+import AppRouter from 'src/features/AppRouter'
+import NavigationButtons from './components/NavigationButtons'
+
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome to Web App!</h1>
-      <button onClick={() => window.open('https://example.com', '_blank')}>
-        Open WebApp
-      </button>
-    </div>
+    <Router>
+      <div className="relative min-h-screen pb-16">
+        <AppRouter />
+        <NavigationButtons />
+      </div>
+    </Router>
   )
 }
 

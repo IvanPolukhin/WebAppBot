@@ -20,7 +20,7 @@ const NavigationButtons = () => {
         Register
       </button>
       <button
-        onClick={() => navigate(RoutePaths.settings)}
+        onClick={() => navigate(RoutePaths.setting)}
         className="px-4 py-2 bg-yellow-500 rounded"
       >
         Settings

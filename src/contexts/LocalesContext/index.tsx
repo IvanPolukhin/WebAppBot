@@ -1,4 +1,4 @@
-import { JSX, useMemo, useState } from 'react'
+import React, { useMemo, useState } from 'react'
 
 import { Language, Locale, LocalStorageKeys } from 'src/types'
 import { LocalesContext } from 'src/contexts'
@@ -6,7 +6,7 @@ import { TRANSLATIONS } from 'src/constants'
 
 import { LocalesContextData } from 'src/contexts/types'
 
-const LocalesProvider = ({ ...props }): JSX.Element => {
+const LocalesProvider = ({ ...props }): React.JSX.Element => {
   const [locale, setLocale] = useState<Language>(
     (localStorage.getItem(LocalStorageKeys.LOCALE) as Language) || Language.EN,
   )

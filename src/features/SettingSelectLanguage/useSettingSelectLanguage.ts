@@ -1,6 +1,6 @@
 import { useLocales } from 'src/contexts'
 
-export const useSettingSelect = () => {
+export const useSettingSelectLanguage = () => {
   const { locale, handleChangeLocale, translations } = useLocales()
 
   return {

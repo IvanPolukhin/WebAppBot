@@ -1,4 +1,4 @@
-import { JSX } from 'react'
+import React from 'react'
 import { Language } from 'src/types'
 
 import {
@@ -8,11 +8,11 @@ import {
   SelectTrigger,
   SelectValue,
 } from 'src/components/shadcn/Select'
-import { useSettingSelect } from 'src/features/SettingSelect/useSettingSelect'
+import { useSettingSelectLanguage } from 'src/features/SettingSelectLanguage/useSettingSelectLanguage'
 
-const AppSelectLanguage = (): JSX.Element => {
+const AppSelectLanguage = (): React.JSX.Element => {
   const { language, handleChangeLocale, languageLabel, selectPlaceholder } =
-    useSettingSelect()
+    useSettingSelectLanguage()
 
   return (
     <div className="flex flex-col mt-6 max-w-[250px]">

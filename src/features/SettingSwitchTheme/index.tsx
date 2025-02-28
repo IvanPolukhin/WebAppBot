@@ -1,5 +1,5 @@
 import React from 'react'
-import { Switch } from 'src/components/shadcn/Switch'
+import { Switch } from 'src/components/shadcn/switch'
 import { useSettingSwitchTheme } from 'src/features/SettingSwitchTheme/useSettingSwitchTheme'
 
 const SettingToggleTheme = (): React.JSX.Element => {

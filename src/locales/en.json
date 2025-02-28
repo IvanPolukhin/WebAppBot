@@ -4,5 +4,27 @@
     "language": "Language",
     "selectLanguage": "Select language",
     "darkMode": "Dark mode"
+  },
+  "registration": {
+    "pageTitle": "Registration",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "username": "Username",
+    "usernamePlaceholder": "Enter your username",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "confirmPassword": "Confirm Password",
+    "confirmPasswordPlaceholder": "Repeat your password",
+    "gender": "Gender",
+    "genderPlaceholder": "Select your gender",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "submitButton": "Register",
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "passwordMismatch": "Passwords do not match"
   }
 }

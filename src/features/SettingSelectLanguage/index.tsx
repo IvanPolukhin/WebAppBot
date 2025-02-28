@@ -7,7 +7,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from 'src/components/shadcn/Select'
+} from 'src/components/shadcn/select'
 import { useSettingSelectLanguage } from 'src/features/SettingSelectLanguage/useSettingSelectLanguage'
 
 const AppSelectLanguage = (): React.JSX.Element => {

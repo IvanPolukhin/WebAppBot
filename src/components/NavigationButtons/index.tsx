@@ -6,7 +6,7 @@ const NavigationButtons = () => {
   const navigate = useNavigate()
 
   return (
-    <div className="fixed bottom-0 w-full flex justify-around p-4 bg-gray-900 text-white">
+    <div className="fixed bottom-0 w-full flex justify-around p-4 bg-gray-900 text-black">
       <button
         onClick={() => navigate(RoutePaths.counter)}
         className="px-4 py-2 bg-blue-500 rounded"

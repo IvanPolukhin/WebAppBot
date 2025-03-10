@@ -8,7 +8,20 @@
     },
     "project": "tsconfig.json"
   },
-  "ignorePatterns": ["*.mjs", "*.config.*", "use*/"],
+  "ignorePatterns": [
+    "*.mjs",
+    "*.config.*",
+    "use*/",
+    "node_modules/",
+    "build/",
+    "dist/",
+    "coverage/",
+    "*.js",
+    "*.json",
+    "public/",
+    "scripts/",
+    "bot.js"
+  ],
   "plugins": ["@typescript-eslint", "prettier", "react", "import"],
   "extends": [
     "plugin:@typescript-eslint/recommended",
@@ -32,42 +45,6 @@
       { "blankLine": "always", "prev": "export", "next": "*" },
       { "blankLine": "always", "prev": "*", "next": "if" },
       { "blankLine": "always", "prev": "if", "next": "*" }
-    ],
-    "import/order": [
-      "warn",
-      {
-        "groups": [
-          "builtin",
-          "external",
-          "internal",
-          "parent",
-          "sibling",
-          "index"
-        ],
-        "newlines-between": "always",
-        "alphabetize": {
-          "order": "desc",
-          "caseInsensitive": true
-        },
-        "pathGroups": [
-          {
-            "pattern": "src/*",
-            "group": "internal"
-          },
-          {
-            "pattern": "src/*/*",
-            "group": "parent"
-          },
-          {
-            "pattern": "src/*/*/*",
-            "group": "sibling"
-          },
-          {
-            "pattern": "src/*/*/**",
-            "group": "index"
-          }
-        ]
-      }
     ]
   },
   "overrides": [
@@ -88,6 +65,9 @@
   ],
   "settings": {
     "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      },
       "typescript": {
         "project": "tsconfig.json"
       }

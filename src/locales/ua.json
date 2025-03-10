@@ -1,0 +1,30 @@
+{
+  "setting": {
+    "setting": "Налаштування",
+    "language": "Мова",
+    "selectLanguage": "Виберіть мову",
+    "darkMode": "Темний режим"
+  },
+  "registration": {
+    "pageTitle": "Реєстрація",
+    "name": "Ім'я",
+    "namePlaceholder": "Введіть ваше ім'я",
+    "username": "Ім'я користувача",
+    "usernamePlaceholder": "Введіть своє ім'я користувача",
+    "email": "Електронна пошта",
+    "emailPlaceholder": "Введіть вашу електронну пошту",
+    "password": "Пароль",
+    "passwordPlaceholder": "Введіть ваш пароль",
+    "confirmPassword": "Підтвердьте пароль",
+    "confirmPasswordPlaceholder": "Повторіть ваш пароль",
+    "gender": "Стать",
+    "genderPlaceholder": "Виберіть вашу стать",
+    "male": "Чоловік",
+    "female": "Жінка",
+    "other": "Інше",
+    "submitButton": "Зареєструватися",
+    "required": "Це поле обов'язкове",
+    "invalidEmail": "Невірна електронна пошта",
+    "passwordMismatch": "Паролі не співпадають"
+  }
+}

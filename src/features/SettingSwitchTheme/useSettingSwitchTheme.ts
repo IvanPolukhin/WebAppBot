@@ -17,6 +17,7 @@ export const useSettingSwitchTheme = () => {
   return {
     isChecked,
     onCheckedChange,
+    // yarIxbebe lox
     themeLabel: translations.setting.darkMode,
   }
 }
